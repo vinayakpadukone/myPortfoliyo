@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: mypf
-          image: vinayakpadukone/mypf # Image that will be used to containers in the cluster
+          image: vinayakpadukone/mypfapp # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80 # The port that the container is running on in the cluster
